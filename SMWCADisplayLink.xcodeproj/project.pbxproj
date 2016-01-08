@@ -15,6 +15,7 @@
 		224148171C40414D0033178C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224148151C40414D0033178C /* LaunchScreen.storyboard */; };
 		224148221C40414D0033178C /* SMWCADisplayLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224148211C40414D0033178C /* SMWCADisplayLinkTests.m */; };
 		2241482D1C40414D0033178C /* SMWCADisplayLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241482C1C40414D0033178C /* SMWCADisplayLinkUITests.m */; };
+		2241483C1C4041740033178C /* SMWCADisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241483B1C4041740033178C /* SMWCADisplayLink.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		224148281C40414D0033178C /* SMWCADisplayLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMWCADisplayLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2241482C1C40414D0033178C /* SMWCADisplayLinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMWCADisplayLinkUITests.m; sourceTree = "<group>"; };
 		2241482E1C40414D0033178C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2241483A1C4041740033178C /* SMWCADisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWCADisplayLink.h; sourceTree = "<group>"; };
+		2241483B1C4041740033178C /* SMWCADisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMWCADisplayLink.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2241480B1C40414D0033178C /* AppDelegate.m */,
 				2241480D1C40414D0033178C /* ViewController.h */,
 				2241480E1C40414D0033178C /* ViewController.m */,
+				2241483A1C4041740033178C /* SMWCADisplayLink.h */,
+				2241483B1C4041740033178C /* SMWCADisplayLink.m */,
 				224148101C40414D0033178C /* Main.storyboard */,
 				224148131C40414D0033178C /* Assets.xcassets */,
 				224148151C40414D0033178C /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2241483C1C4041740033178C /* SMWCADisplayLink.m in Sources */,
 				2241480F1C40414D0033178C /* ViewController.m in Sources */,
 				2241480C1C40414D0033178C /* AppDelegate.m in Sources */,
 				224148091C40414D0033178C /* main.m in Sources */,
