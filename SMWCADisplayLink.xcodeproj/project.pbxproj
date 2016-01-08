@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224148091C40414D0033178C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224148081C40414D0033178C /* main.m */; };
+		2241480C1C40414D0033178C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241480B1C40414D0033178C /* AppDelegate.m */; };
+		2241480F1C40414D0033178C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241480E1C40414D0033178C /* ViewController.m */; };
+		224148121C40414D0033178C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224148101C40414D0033178C /* Main.storyboard */; };
+		224148141C40414D0033178C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224148131C40414D0033178C /* Assets.xcassets */; };
+		224148171C40414D0033178C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224148151C40414D0033178C /* LaunchScreen.storyboard */; };
+		224148221C40414D0033178C /* SMWCADisplayLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224148211C40414D0033178C /* SMWCADisplayLinkTests.m */; };
+		2241482D1C40414D0033178C /* SMWCADisplayLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2241482C1C40414D0033178C /* SMWCADisplayLinkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2241481E1C40414D0033178C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224147FC1C40414D0033178C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224148031C40414D0033178C;
+			remoteInfo = SMWCADisplayLink;
+		};
+		224148291C40414D0033178C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224147FC1C40414D0033178C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224148031C40414D0033178C;
+			remoteInfo = SMWCADisplayLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224148041C40414D0033178C /* SMWCADisplayLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMWCADisplayLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224148081C40414D0033178C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2241480A1C40414D0033178C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2241480B1C40414D0033178C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2241480D1C40414D0033178C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2241480E1C40414D0033178C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		224148111C40414D0033178C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224148131C40414D0033178C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224148161C40414D0033178C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		224148181C40414D0033178C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2241481D1C40414D0033178C /* SMWCADisplayLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMWCADisplayLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224148211C40414D0033178C /* SMWCADisplayLinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMWCADisplayLinkTests.m; sourceTree = "<group>"; };
+		224148231C40414D0033178C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224148281C40414D0033178C /* SMWCADisplayLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMWCADisplayLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2241482C1C40414D0033178C /* SMWCADisplayLinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMWCADisplayLinkUITests.m; sourceTree = "<group>"; };
+		2241482E1C40414D0033178C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224148011C40414D0033178C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2241481A1C40414D0033178C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224148251C40414D0033178C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224147FB1C40414D0033178C = {
+			isa = PBXGroup;
+			children = (
+				224148061C40414D0033178C /* SMWCADisplayLink */,
+				224148201C40414D0033178C /* SMWCADisplayLinkTests */,
+				2241482B1C40414D0033178C /* SMWCADisplayLinkUITests */,
+				224148051C40414D0033178C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224148051C40414D0033178C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224148041C40414D0033178C /* SMWCADisplayLink.app */,
+				2241481D1C40414D0033178C /* SMWCADisplayLinkTests.xctest */,
+				224148281C40414D0033178C /* SMWCADisplayLinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224148061C40414D0033178C /* SMWCADisplayLink */ = {
+			isa = PBXGroup;
+			children = (
+				2241480A1C40414D0033178C /* AppDelegate.h */,
+				2241480B1C40414D0033178C /* AppDelegate.m */,
+				2241480D1C40414D0033178C /* ViewController.h */,
+				2241480E1C40414D0033178C /* ViewController.m */,
+				224148101C40414D0033178C /* Main.storyboard */,
+				224148131C40414D0033178C /* Assets.xcassets */,
+				224148151C40414D0033178C /* LaunchScreen.storyboard */,
+				224148181C40414D0033178C /* Info.plist */,
+				224148071C40414D0033178C /* Supporting Files */,
+			);
+			path = SMWCADisplayLink;
+			sourceTree = "<group>";
+		};
+		224148071C40414D0033178C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224148081C40414D0033178C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224148201C40414D0033178C /* SMWCADisplayLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				224148211C40414D0033178C /* SMWCADisplayLinkTests.m */,
+				224148231C40414D0033178C /* Info.plist */,
+			);
+			path = SMWCADisplayLinkTests;
+			sourceTree = "<group>";
+		};
+		2241482B1C40414D0033178C /* SMWCADisplayLinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2241482C1C40414D0033178C /* SMWCADisplayLinkUITests.m */,
+				2241482E1C40414D0033178C /* Info.plist */,
+			);
+			path = SMWCADisplayLinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224148031C40414D0033178C /* SMWCADisplayLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224148311C40414D0033178C /* Build configuration list for PBXNativeTarget "SMWCADisplayLink" */;
+			buildPhases = (
+				224148001C40414D0033178C /* Sources */,
+				224148011C40414D0033178C /* Frameworks */,
+				224148021C40414D0033178C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMWCADisplayLink;
+			productName = SMWCADisplayLink;
+			productReference = 224148041C40414D0033178C /* SMWCADisplayLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2241481C1C40414D0033178C /* SMWCADisplayLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224148341C40414D0033178C /* Build configuration list for PBXNativeTarget "SMWCADisplayLinkTests" */;
+			buildPhases = (
+				224148191C40414D0033178C /* Sources */,
+				2241481A1C40414D0033178C /* Frameworks */,
+				2241481B1C40414D0033178C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2241481F1C40414D0033178C /* PBXTargetDependency */,
+			);
+			name = SMWCADisplayLinkTests;
+			productName = SMWCADisplayLinkTests;
+			productReference = 2241481D1C40414D0033178C /* SMWCADisplayLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		224148271C40414D0033178C /* SMWCADisplayLinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224148371C40414D0033178C /* Build configuration list for PBXNativeTarget "SMWCADisplayLinkUITests" */;
+			buildPhases = (
+				224148241C40414D0033178C /* Sources */,
+				224148251C40414D0033178C /* Frameworks */,
+				224148261C40414D0033178C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2241482A1C40414D0033178C /* PBXTargetDependency */,
+			);
+			name = SMWCADisplayLinkUITests;
+			productName = SMWCADisplayLinkUITests;
+			productReference = 224148281C40414D0033178C /* SMWCADisplayLinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224147FC1C40414D0033178C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Meech-Ward";
+				TargetAttributes = {
+					224148031C40414D0033178C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2241481C1C40414D0033178C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 224148031C40414D0033178C;
+					};
+					224148271C40414D0033178C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 224148031C40414D0033178C;
+					};
+				};
+			};
+			buildConfigurationList = 224147FF1C40414D0033178C /* Build configuration list for PBXProject "SMWCADisplayLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224147FB1C40414D0033178C;
+			productRefGroup = 224148051C40414D0033178C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224148031C40414D0033178C /* SMWCADisplayLink */,
+				2241481C1C40414D0033178C /* SMWCADisplayLinkTests */,
+				224148271C40414D0033178C /* SMWCADisplayLinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224148021C40414D0033178C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224148171C40414D0033178C /* LaunchScreen.storyboard in Resources */,
+				224148141C40414D0033178C /* Assets.xcassets in Resources */,
+				224148121C40414D0033178C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2241481B1C40414D0033178C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224148261C40414D0033178C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224148001C40414D0033178C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2241480F1C40414D0033178C /* ViewController.m in Sources */,
+				2241480C1C40414D0033178C /* AppDelegate.m in Sources */,
+				224148091C40414D0033178C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224148191C40414D0033178C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224148221C40414D0033178C /* SMWCADisplayLinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224148241C40414D0033178C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2241482D1C40414D0033178C /* SMWCADisplayLinkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2241481F1C40414D0033178C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224148031C40414D0033178C /* SMWCADisplayLink */;
+			targetProxy = 2241481E1C40414D0033178C /* PBXContainerItemProxy */;
+		};
+		2241482A1C40414D0033178C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224148031C40414D0033178C /* SMWCADisplayLink */;
+			targetProxy = 224148291C40414D0033178C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		224148101C40414D0033178C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224148111C40414D0033178C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		224148151C40414D0033178C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224148161C40414D0033178C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2241482F1C40414D0033178C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		224148301C40414D0033178C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224148321C40414D0033178C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMWCADisplayLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meech-Ward.SMWCADisplayLink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		224148331C40414D0033178C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMWCADisplayLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meech-Ward.SMWCADisplayLink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		224148351C40414D0033178C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMWCADisplayLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meech-Ward.SMWCADisplayLinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMWCADisplayLink.app/SMWCADisplayLink";
+			};
+			name = Debug;
+		};
+		224148361C40414D0033178C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMWCADisplayLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meech-Ward.SMWCADisplayLinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMWCADisplayLink.app/SMWCADisplayLink";
+			};
+			name = Release;
+		};
+		224148381C40414D0033178C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMWCADisplayLinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meech-Ward.SMWCADisplayLinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMWCADisplayLink;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		224148391C40414D0033178C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMWCADisplayLinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meech-Ward.SMWCADisplayLinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMWCADisplayLink;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224147FF1C40414D0033178C /* Build configuration list for PBXProject "SMWCADisplayLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2241482F1C40414D0033178C /* Debug */,
+				224148301C40414D0033178C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224148311C40414D0033178C /* Build configuration list for PBXNativeTarget "SMWCADisplayLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224148321C40414D0033178C /* Debug */,
+				224148331C40414D0033178C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224148341C40414D0033178C /* Build configuration list for PBXNativeTarget "SMWCADisplayLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224148351C40414D0033178C /* Debug */,
+				224148361C40414D0033178C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224148371C40414D0033178C /* Build configuration list for PBXNativeTarget "SMWCADisplayLinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224148381C40414D0033178C /* Debug */,
+				224148391C40414D0033178C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224147FC1C40414D0033178C /* Project object */;
+}
